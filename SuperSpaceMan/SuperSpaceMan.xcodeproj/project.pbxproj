@@ -13,6 +13,7 @@
 		28D43FD81C3038B0007A96B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D43FD61C3038B0007A96B8 /* Main.storyboard */; };
 		28D43FDA1C3038B0007A96B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D43FD91C3038B0007A96B8 /* Assets.xcassets */; };
 		28D43FDD1C3038B0007A96B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D43FDB1C3038B0007A96B8 /* LaunchScreen.storyboard */; };
+		28D43FE51C3043D2007A96B8 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 28D43FE41C3043D2007A96B8 /* sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		28D43FD91C3038B0007A96B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28D43FDC1C3038B0007A96B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28D43FDE1C3038B0007A96B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D43FE41C3043D2007A96B8 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,17 @@
 				28D43FD91C3038B0007A96B8 /* Assets.xcassets */,
 				28D43FDB1C3038B0007A96B8 /* LaunchScreen.storyboard */,
 				28D43FDE1C3038B0007A96B8 /* Info.plist */,
+				28D43FE61C304449007A96B8 /* Supporting Files */,
 			);
 			path = SuperSpaceMan;
+			sourceTree = "<group>";
+		};
+		28D43FE61C304449007A96B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28D43FE41C3043D2007A96B8 /* sprites.atlas */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				28D43FDD1C3038B0007A96B8 /* LaunchScreen.storyboard in Resources */,
 				28D43FDA1C3038B0007A96B8 /* Assets.xcassets in Resources */,
+				28D43FE51C3043D2007A96B8 /* sprites.atlas in Resources */,
 				28D43FD81C3038B0007A96B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
