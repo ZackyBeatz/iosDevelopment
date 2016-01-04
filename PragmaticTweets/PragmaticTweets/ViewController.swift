@@ -11,6 +11,8 @@ import Social
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var twitterWebView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -33,6 +35,13 @@ class ViewController: UIViewController {
             print("Can't send tweet")
         }
         
+    }
+    
+    
+    @IBAction func handleShowMyTweetsTapped(sender: UIButton) {
+            
+            twitterWebView.loadRequest(NSURLRequest(URL: NSURL(string: "https://www.twitter.com/zackya89")!))
+            
     }
     
 
